@@ -1,0 +1,17 @@
+ Purpose:
+        Create a single page React + TypeScript with SCSS that fetches a list of educational actvites and display one randomly to the user. The user can refresh to get a new random suggestion.
+
+ Tech Stack:
+        React with TypeScript
+        SCSS for styling with:
+                -Variables
+                -Mixins
+                -Nesting
+                -Responsive design
+        API(https://bored-api.appbrewery.com/filter?type=education)
+
+ Features: 
+        Fetch list of educational activities
+        Display random activity on first load
+        Button to show another activity
+        Clean and reusable  organized file structure  
