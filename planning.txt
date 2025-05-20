@@ -15,3 +15,9 @@
         Display random activity on first load
         Button to show another activity
         Clean and reusable  organized file structure  
+
+
+ Terminal:  
+            npx create-next-app@latest 
+            npm i sass
+            import "./globals.scss"; rename globals.scss
