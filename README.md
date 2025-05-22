@@ -1,5 +1,20 @@
-# bored-api-edu
-An interactive app that gives random educational activity suggestions to beat boredom, built with React, TypeScript, and SCSS.
+📚 Fun Facts App
+A simple and fun single-page application built with React, TypeScript, and SCSS that fetches a random fact from an external API and displays it to the user. Click the button to get a new fact each time!
+
+🚀 Features
+🔁 Fetches a new random fact on each load and on button click
+🌐 Uses the Useless Facts API
+🎨 Styled using SCSS with best practices (variables, mixins, nesting, responsive)
+⚙️ Written in TypeScript for type safety
+📱 Fully responsive design for mobile and desktop
+
+🧑‍💻 Tech Stack
+React with TypeScript
+SCSS for modular, maintainable styles
+API: Useless Facts API
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
