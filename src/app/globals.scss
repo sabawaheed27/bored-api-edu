@@ -1,43 +1,26 @@
 @import "../styles/variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400..900&display=swap');
 
 * {
   box-sizing: border-box;
 }
-html,
-body {
+html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
-
-.header {
-  background-color: black;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-
-  h1 {
-    font-size: 1.8rem;
-    margin: 0;
-  }
-
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $primary__bg;
+  color: $primary__text;
+  $font-radio: 'Radio Canada Big', sans-serif;
+  padding: $indent__small;
+  margin: 0;
 }
 
-.footer {
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  font-size: 0.8rem;
-  margin-top: 2rem;
-
-  a{
-    text-decoration: none;
-    color: aqua;
-     &:hover {
-      text-decoration: underline;
-    }
-  }
+main {
+  flex: 1;
+  width: 100%;
 }
-  

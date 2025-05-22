@@ -1,0 +1,17 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.header {
+  background-color: $header__bg;
+  color: $primary__text;
+  padding: $indent__l;
+  font-family: $font-stack;
+  
+
+  @include flex-center();
+
+  h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+}

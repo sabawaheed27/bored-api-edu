@@ -1,6 +1,20 @@
+// Spacing
+$indent__base: 16px;
+$indent__small: $indent__base / 2;
+$indent__m: $indent__base * 1.5;
+$indent__l: $indent__base * 2;
+$indent__xl: $indent__base * 3;
+
+// Colors
+$color-white: #fff;
+$color-dark-grey: #1d1d1d;
+$header__bg: #454141;
+$primary__bg: $color-dark-grey;
+$primary__text: $color-white;
 
 
-$primary-color: #ff6f61;
-$background-color: #fefefe;
-$text-color: #333;
-$font-stack: 'Segoe UI', sans-serif;
+// Fonts
+$font-stack: "Orbitron", "sans-serif";
+
+// Breakpoints
+$bp-tablet: 768px;

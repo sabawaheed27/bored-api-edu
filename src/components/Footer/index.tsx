@@ -1,14 +1,14 @@
-
+import '../Footer/footer.scss'
 const Footer = ()=>{
     return(
         <footer className="footer">
             <p> Made with ❤️ using the{" "}
         <a
-          href="https://bored-api.appbrewery.com/"
+          href="https://uselessfacts.jsph.pl/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bored API
+          Fun Fact API
         </a>
       </p>
         </footer>

@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.wrapper {
+  @include flex-center();
+  text-align: center;
+  padding: $indent__l;
+}
+
+.card {
+  background-color: lighten($primary__bg, 10%);
+  padding: $indent__l;
+  border-radius: 10px;
+  margin: $indent__m 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.button {
+  @include button-style(#007bff);
+  margin-top: $indent__m;
+}

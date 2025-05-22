@@ -1,8 +1,9 @@
- 
+import '../Header/header.scss'
+
 const Header= ()=>{
     return(
         <header className="header">
-            <h1>Educational Activity Suggester</h1>
+            <h1>Tiny Truths, Big Impact</h1>
         </header>
         
     )

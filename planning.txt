@@ -1,5 +1,5 @@
  Purpose:
-        Create a single page React + TypeScript with SCSS that fetches a list of educational actvites and display one randomly to the user. The user can refresh to get a new random suggestion.
+       Create a single-page React + TypeScript app that fetches a random fun fact from the Useless Facts API and displays it to the user. The user can click a button to fetch a new fact.
 
  Tech Stack:
         React with TypeScript
@@ -8,16 +8,21 @@
                 -Mixins
                 -Nesting
                 -Responsive design
-        API(https://bored-api.appbrewery.com/filter?type=education)
+       API: https://uselessfacts.jsph.pl/random.json?language=en
 
  Features: 
-        Fetch list of educational activities
-        Display random activity on first load
-        Button to show another activity
-        Clean and reusable  organized file structure  
+       Fetch a random fact on first load
+       Display fact content and source
+       Button to fetch a new fact
+       Clean component structure
+       SCSS module for styling
+
+Optional: 
+       Add mixins/variables if needed for future extension
 
 
- Terminal:  
-            npx create-next-app@latest 
-            npm i sass
-            import "./globals.scss"; rename globals.scss
+Terminal:  
+       npx create-next-app@latest 
+       npm i sass
+Folder:          
+       import "./globals.scss"; rename globals.scss

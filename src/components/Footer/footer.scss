@@ -1,0 +1,22 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.footer {
+  background-color: $primary__bg;
+  color: $primary__text;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: $indent__l;
+  padding: $indent__small;
+
+  font-family: $font-stack;
+
+  a {
+    text-decoration: none;
+    color: aqua;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
